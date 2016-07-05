@@ -62,7 +62,6 @@ class Calculator
         if token.operator?        
           until opstack.empty? or 
             opstack.last.token_type.options[:precedence] < token.token_type.options[:precedence]
-            
             output << opstack.pop
           end
           
