@@ -9,6 +9,9 @@ The evaluation of the expression involves doing these three steps:
 
 ## Running the program
 
+```
 Usage: ruby main.rb [expression]
 
 Example: ruby main.rb "(8 + 5) * 20 / 2 - 6"
+
+```
